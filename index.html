@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Obamacare</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./assets/images/favicon/site.webmanifest" />
+    <link rel="mask-icon" href="./assets/images/favicon/safari-pinned-tab.svg" color="#b52a25" />
+    <link rel="shortcut icon" href="./assets/images/favicon/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-config" content="./assets/images/favicon/browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <link href="./assets/css/index.bundle.css" rel="stylesheet" />
+
+    <script src="./assets/js/index.bundle.js"></script>
+
+    <link rel="preload" href="./assets/fonts/graphiklcg-400-regular.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./assets/fonts/graphiklcg-500-medium.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./assets/fonts/graphiklcg-600-semibold.woff2" as="font" crossorigin="anonymous" />
+    <link rel="preload" href="./assets/fonts/graphiklcg-700-bold.woff2" as="font" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="attention">
+    </div>
+    <div class="hero">
+        <div class="container hero__container">
+            <div class="hero__heading">
+                An Extension Of The Open Enrollment.
+                <br />
+                You May Qualify For $0 Health Insurance Plan*
+            </div>
+        </div>
+
+        <div class="container ">
+            <div class="checkout__heading">Check Out These Savings:</div>
+            <div class="checkout__items">
+                <div class="checkout__item">
+                    <div class="checkout-item">
+                        <div class="checkout-item__balloon">
+                            <div class="balloon balloon--danger">
+                                <div class="balloon__heading">Old</div>
+                                <div class="balloon__description">Month Premium = $218.7</div>
+                            </div>
+                        </div>
+                        <div class="checkout-item__image">
+                            <img class="image" src="./assets/images/cont-1.jpg" width="444" height="180" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="checkout__item">
+                    <div class="checkout-item">
+                        <div class="checkout-item__balloon">
+                            <div class="balloon balloon--success">
+                                <div class="balloon__heading">New</div>
+                                <div class="balloon__description">Month Premium = $73</div>
+                            </div>
+                        </div>
+                        <div class="checkout-item__image">
+                            <img class="image" src="./assets/images/cont-2.jpg" width="444" height="180" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text_main1">Stop overpaying for your health insurance! Check if you qualify for this quote and get your Affordable Health Insurance RIGHT NOW.
+You just should answer several questions... and that's it! 
+</div>
+
+        </div>
+
+
+    </div>
+    <div class="checkout">
+
+    </div>
+    <div class="quote">
+        <div class="container quote__container">
+
+            <!--
+           <div  class="text_main1">Stop overpaying! You just should answer several questions... and that's it! You can reduce your monthly payments by so much, and can even find cheaper plans from the SAME provider you are currently using or find a new one.</div>
+           
+            <div class="text_main2">Hurry Up To Get Your Quote Until The End Of The Month</div>
+           
+-->
+
+
+            <div class="quote__heading">Tap Below To Get Your Quote!</div>
+            <div class="quote__steps">
+                <div class="quote-steps">
+                    <div class="quote-steps__heading">
+                        <div class="quote-steps-heading">
+                            <div class="quote-steps-heading__arrow quote-steps-heading__arrow--left">
+                                <img class="image" src="./assets/images/quote.svg" width="51" height="48" alt="" />
+                            </div>
+                            <div class="quote-steps-heading__title">Here's How You Do It:</div>
+                            <div class="quote-steps-heading__arrow quote-steps-heading__arrow--right">
+                                <img class="image" src="./assets/images/quote.svg" width="51" height="48" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-steps__items">
+                        <div class="quote-steps__item">
+                            <div class="quote-steps-item">
+                                <div class="quote-steps-item__heading">Step 1:</div>
+                                <div class="quote-steps-item__description">Answer several questions</div>
+                            </div>
+                        </div>
+                        <div class="quote-steps__item">
+                            <div class="quote-steps-item">
+                                <div class="quote-steps-item__heading">Step 2:</div>
+                                <div class="quote-steps-item__description">Call to get a quote</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quote__quiz">
+                <form class="quote-quiz" name="quiz" action="#">
+                    <div class="quote-quiz__step quote-quiz__step--active" data-step="1">
+                        <div class="quote-quiz__question">
+                            <div class="quote-quiz-question">
+                                <div class="quote-quiz-question__title">Are you on Medicare/Medicaid?</div>
+                                <div class="quote-quiz-question__answers">
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="Yes" name="Are you on Medicare/Medicaid?" />
+                                            <span class="quote-quiz-question-answer__title">Yes</span>
+                                        </label>
+                                    </div>
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="No" name="Are you on Medicare/Medicaid?" />
+                                            <span class="quote-quiz-question-answer__title">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-quiz__step" data-step="2">
+                        <div class="quote-quiz__question">
+                            <div class="quote-quiz-question">
+                                <div class="quote-quiz-question__title">Are you under 65?</div>
+                                <div class="quote-quiz-question__answers">
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="Yes" name="Are you under 65?" />
+                                            <span class="quote-quiz-question-answer__title">Yes</span>
+                                        </label>
+                                    </div>
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="No" name="Are you under 65?" />
+                                            <span class="quote-quiz-question-answer__title">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-quiz__step" data-step="3">
+                        <div class="quote-quiz__question">
+                            <div class="quote-quiz-question">
+                                <div class="quote-quiz-question__title">Is your income less than $50k annually?</div>
+                                <div class="quote-quiz-question__answers">
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="Yes" name="Is your income less than $50k annually?" />
+                                            <span class="quote-quiz-question-answer__title">Yes</span>
+                                        </label>
+                                    </div>
+                                    <div class="quote-quiz-question__answer">
+                                        <label class="quote-quiz-question-answer">
+                                            <input class="quote-quiz-question-answer__input" type="radio" value="No" name="Is your income less than $50k annually?" />
+                                            <span class="quote-quiz-question-answer__title">No</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-quiz__step" data-step="4" data-loading="true">
+                        <div class="quote-quiz-loading">
+                            <div class="quote-quiz-loading__spinner">
+                                <img class="image" src="./assets/images/spinner.gif" width="60" height="60" alt="" />
+                            </div>
+                            <div class="quote-quiz-loading__title">Reviewing Your Answers...</div>
+                        </div>
+                    </div>
+                    <div class="quote-quiz__step" data-step="5" data-result="true">
+                        <div class="quote-quiz-result">
+                            <div class="quote-quiz-result__heading">Сongratulations!</div>
+                            <div class="quote-quiz-result__decription">
+                                You prequalify for a Special, Personalised Health Insurance Quote that provides you with an Affordable <strong>Health, Vision & Dental</strong> Benefits for <strong>$0/Month</strong>
+                                <br/>
+                                Tap below to get your quote
+                            </div>
+                            <div class="quote-quiz-result__button">
+                                <a class="button" href="tel:+1 (833) 844-0918">
+                                    <i class="button__icon">
+                                        <img class="image" src="./assets/images/phone.svg" width="24" height="24" alt="" />
+                                    </i>
+                                    <span class="button__title">+1 (833) 844-0918</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container footer__container">
+            
+            <div class="footer__copyright">Copyright 2021 All Rights Reserved</div>
+            
+           <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'marketcall.start':new Date().getTime(),event:'marketcall.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='mcLayer'?'&l='+l:'';j.async=true;j.src='https://marketcall.ru/js/marketcall.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','mcLayer','6300');</script>
+            <style>
+                .footer_legal {
+                    font-size: 80%;
+                    line-height: 1.3;
+                    font-weight: 400;
+                    margin-top: 15px;
+                }
+            </style>
+            <div id="legal" class="footer_legal"></div>
+        </div>
+    </div>
+<script src="https://www.marketcall.ru/js/landing.js"></script><script src="https://www.marketcall.ru/js/mclead.js?program_id=235683"></script><script src="https://www.marketcall.ru/js/mclegal.js?program_id=235683"></script><script src="https://www.marketcall.com/js/landing.js"></script><script src="https://www.marketcall.com/js/mclead.js?program_id=0"></script><script src="https://www.marketcall.com/js/mclegal.js?program_id=0"></script></body>
+
+</html>
